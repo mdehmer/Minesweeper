@@ -1,0 +1,23 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "./style.css";
+
+
+$primary: #7f25fb;
+$secondary: #FF61B8;
+$success: #5affa6;
+$info: #00a7ef;
+$warning: #ffb600;
+$danger: #f20089;
+$light: #C8ABDB;
+$dark: #420E61;
+
+$body-bg: #ebebeb;
+$body-bg-dark: #23163e; 
+$form-range-track-bg: var(--bs-primary-bg-subtle);
+$border-color: var(--bs-light);
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import './style.css';
