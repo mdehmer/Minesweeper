@@ -328,7 +328,6 @@ function loadCoveredBoard() {
     // Build the tiles along the row (y)
     for (var y = 0; y < numCols; y++) {
       $(`#board #row${x}`).append(
-        // `<button type="button" class="boardCell btn bg-primary-subtle border border-primary-subtle" id="${x}-${y}"></button>`
         `<button type="button" class="boardCell" id="${x}-${y}"></button>`
       );
     }
